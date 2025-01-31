@@ -11,6 +11,10 @@
 		"science": 1,
 
 		"cost": 0,
+	    
+	        "cityStrength": 100,
+
+		"cityHealth": 2000,
 
 		"requiredTech": "Banking",
 
