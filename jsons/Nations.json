@@ -1,294 +1,66 @@
 [
-    {
-        "name": "Panther God Shrine",
-
-        "replaces": "Shrine",
-
-		"uniqueTo": "Wakanda",
-
-		"faith": 1,
-
-		"science": 1,
-
-		"cost": 40,
-
-		"maintenance": 1,
-
-		"requiredTech": "Pottery",
-
-		"uniques": ["Only available <when religion is enabled>",
-
-            "[+1 Science, +1 Faith] [in this city] <with [Vibranium]>"]
-
-    },
 
     {
 
-        "name": "Energy Barrier",
+        "name": "Wakanda",
 
-        "uniqueTo": "Wakanda",
+		"leaderName": "XamiD",
 
-        "replaces": "Military Base",
+		"adjective": ["Wakandan"],
 
-        "science": 1,
+		"startBias": ["Jungle"],
 
-		"cityStrength": 13,
+		"personality": "XamiD",
 
-		"cityHealth": 50,
+        "preferredVictoryType": "Scientific",
 
-		"hurryCostModifier": 25,
+		"favoredReligion": "Orisha",
 
-		"requiredBuilding": "Arsenal",
+        
 
-		"requiredTech": "Replaceable Parts",
+        "startIntroPart1": "10,000 years ago, Wakanda was home to a collection of primitive human tribes. It was during this time a massive meteorite made of a sound and energy absorbing mineral, which would later be known as vibranium crashed to Earth. One of the tribes, led by Bashenga, its mightiest warrior, decided to investigate, believing this to be a gift from the gods. Bashenga prayed to the Panther God to give him the strength to defeat these demons, becoming the first Black Panther and uniting the tribes to form the nation of Wakanda. His lineage would later rule the country for centuries. Now you, XamiD, are the latest to sit upon his throne.",
 
-		"uniques": ["[+1 Production, +1 Science] [in this city] <with [Vibranium]>",
+		"startIntroPart2": "For centuries Wakanda has remained in isolation. Now, they are considered the most technologically advanced nation of the planet. Can you uphold their mighty legacy, king XamiD? Will your new empire shine through the ages of history?",
 
-            "Destroyed when the city is captured"]
 
-    },
 
-    {
+		"declaringWar": "Wakanda forever!",
 
-        "name": "Sacred Mound",
+		"attacked": "It is my responsibility to make sure our people are safe and that vibranium does not fall into the hands of a person like you.",
 
-        "uniqueTo": "Wakanda",
+		"defeated": "It is over for us. What happens now determines what happens to the rest of the world.",
 
-        "isWonder": "true",
+		"afterPeace": "Our weapons will not be used to wage war on the world. It is not our way to be judge, jury, and executioner for people who are not our own.",
 
-        "requiredTech": "Agriculture",
 
-        "cost": 1,
 
-        "science": 1,
+		"introduction": "Greetings from Wakanda. I am XamiD, king of Africa's greatest people.",		
 
-        "uniques": ["Provides [1] [Vibranium]",
+		"neutralHello": "Molo unjani (Hello, how are you?)",
 
-            "[+1 Culture, +1 Science, +10 Happiness, +1 Faith, +1 Gold, +1 Food, +1 Production] [in all cities]",
+		"hateHello": "What do YOU want?",		
 
-            "Free [Black Panther] appears",
+		"tradeRequest": "We all know the truth: more connects us than separates us. But in times of crisis the wise build bridges, while the foolish build barriers. We must find a way to look after one another, as if we were one single tribe.",
 
-            "Gain a free [Monument] [in this city]",
 
-            "Automatically built in all cities where it is buildable"],
 
-        "quote": "'I have seen gods fly. I have seen men build weapons that I couldn't even imagine. I have seen aliens drop from the sky. But I have never seen anything like this.' - Everett K. Ross"
+		"outerColor": [135,78,218],
 
-    },
+		"innerColor": [10,17,10],
 
-    {
+		"uniqueName": "Secrets of the Sacred Mound",
 
-        "name": "Secret of Vibranium Alloys",
+		"uniques": ["[All] units gain the [Wakanda Forever] promotion",
 
-        "requiredTech": "Iron Working",
+			"Starts with [Mining]",
 
-        "requiredBuilding": "Sacred Mound",
+			"Comment [Unlock more secrets by building upon the Sacred Mound]"],
 
-        "isWonder": "true",
+		"cities": ["Шайдон","Худжанд","Самарканд","Бухоро","Понгоз","Кулоб","Душанбе","Помир",
 
-        "cost": 125,
+			"Бадахшон","Бохтар","Истаравшан","Исфара","Конибодом","Вахш","Панджакент","Ашт"],
 
-        "science": 1,
-
-        "uniques": ["[+25]% Strength for cities <when defending>",
-
-            "[+10]% Strength <for [All] units>",
-
-            "[+33]% Strength <for [All] units> <vs [Ranged] units> <when defending>",
-
-            "Provides [2] [Iron]",
-
-            "Double quantity of [Iron] produced",
-
-            "Only available <if [Sacred Mound] is constructed>",
-
-            "Will not be displayed in Civilopedia"],
-
-        "quote": "'The most versatile substance on the planet, and they used it to build a Frisbee.' - Ultron"
-
-    },
-
-    {
-
-        "name": "Secret of Enlightened Culture",
-
-        "requiredTech": "Civil Service",
-
-        "requiredBuilding": "Sacred Mound",
-
-        "isWonder": "true",
-
-        "science": 1,
-
-        "cost": 160,
-
-        "uniques": ["Each city founded increases culture cost of policies [10]% less than normal",
-
-            "[-10]% Unhappiness from [Population] [in all cities]",
-
-            "[+1 Culture, +1 Science, +1 Happiness] from each Trade Route",
-
-            "Only available <if [Sacred Mound] is constructed>",
-
-            "Will not be displayed in Civilopedia"],
-
-        "quote": "'You have been told that the might of your country is in its wonderful invention, in its circuits and weaponry. This is the mastery of things. But Wakanda was great before it had things, and its secrets are older than any vaulted metal.' - Ramonda"
-
-    },
-
-    {
-
-        "name": "Secret of Monetary Theory",
-
-        "requiredTech": "Banking",
-
-        "requiredBuilding": "Sacred Mound",
-
-        "isWonder": "true",
-
-        "science": 1,
-
-        "cost": 250,
-
-        "uniques": ["[-10]% Gold cost of upgrading <for [Military] units>",
-
-            "[-10]% maintenance on road & railroads",
-
-            "[-10]% Gold cost of acquiring tiles [in all cities]",
-
-            "[-10]% maintenance costs <for [All] units>",
-
-            "[Gold] cost of purchasing items in cities [-10]%",
-
-            "[-10]% maintenance cost for buildings [in all cities]",
-
-            "Only available <if [Sacred Mound] is constructed>",
-
-            "Will not be displayed in Civilopedia"],
-
-        "quote": "'Just as money has been in the past the instrument of men's selfishness, now it must be the instrument of their goodwill.' - Alice Bailey"
-
-    },
-
-    {
-
-        "name": "Secret of the Heart-Shaped Herb",
-
-        "requiredTech": "Fertilizer",
-
-        "requiredBuilding": "Sacred Mound",
-
-        "isWonder": "true",
-
-        "cost": 360,
-
-        "science": 1,
-
-        "uniques": ["[+1] Movement <for [All] units>",
-
-            "[+10] HP when healing <for [All] units>",
-
-            "[+2 Food, +1 Happiness] [in all cities]",
-
-            "Only available <if [Sacred Mound] is constructed>",
-
-            "Will not be displayed in Civilopedia"],
-
-        "quote": "'A warrior shaman received a vision from the panther goddess Bast, who led him to the Heart-Shaped Herb, a plant that granted him superhuman strength, speed and instincts.' - N'Jobu"
-
-    },
-
-    {
-
-        "name": "Secret of Antarctic Vibranium",
-
-        "requiredTech": "Electricity",
-
-        "requiredBuilding": "Sacred Mound",
-
-        "isWonder": "true",
-
-        "cost": 360,
-
-        "science": 1,
-
-        "uniques": ["[+25]% Strength for cities <when attacking>",
-
-            "[+5]% Strength <for [All] units> <when attacking>",
-
-			"No movement cost to pillage <for [non-air] units>",
-
-			"[+10]% Strength <for [All] units> <vs [Armored] units>",
-
-            "Provides [2] [Aluminum]",
-
-            "Double quantity of [Aluminum] produced",
-
-            "Only available <if [Sacred Mound] is constructed>",
-
-            "Will not be displayed in Civilopedia"],
-
-        "quote": "'Antarctic Vibranium. Ever heard of it? It emanates vibrations, which cause the atomic molecular bonds in metals to weaken and in most cases liquefy.' - Misty Knight"
-
-    },
-
-    {
-
-        "name": "Secret of Panther Vision",
-
-        "requiredTech": "Scientific Theory",
-
-        "requiredBuilding": "Sacred Mound",
-
-        "isWonder": "true",
-
-        "cost": 300,
-
-        "science": 1,
-
-        "uniques": ["[All] units gain the [Panther Eyes] promotion",
-
-            "[+1] Sight <for [All] units>",
-
-            "[+1] Sight <for [Embarked] units>",
-
-            "Reveals the entire map",
-
-            "Only available <if [Sacred Mound] is constructed>",
-
-            "Will not be displayed in Civilopedia"],
-
-        "quote": "'Lifting her eyes she saw two bright objects starring the darkness with a reddish-green glow. She took them to be two coals on the hearth, but with her returning sense of direction came the disquieting consciousness that they were not in that quarter of the room, moreover were too high, being nearly at the level of the eyes--of her own eyes. For these were the eyes of a panther.' - Ambrose Bierce"
-
-    },
-
-    {
-
-        "name": "Secret of Vibranium Power",
-
-        "requiredTech": "Atomic Theory",
-
-        "requiredBuilding": "Sacred Mound",
-
-        "isWonder": "true",
-
-        "cost": 500,
-
-        "science": 1,
-
-        "uniques": ["[+2 Production] [in all cities]",
-
-            "[+15]% Production when constructing [Military] units [in all cities]",
-
-            "Provides [2] [Uranium]",
-
-            "Double quantity of [Uranium] produced",
-
-            "Only available <if [Sacred Mound] is constructed>",
-
-            "Will not be displayed in Civilopedia"],
-
-        "quote": "'It's not just a metal. They sew it into their clothes. It powers their city, their tech... their weapons. Makes my arm cannon look like a leaf blower.' - Ulysses Klaue"
+		"spyNames": ["White Wolf", "Hunter", "Bucky Barnes", "Shuri", "Refaat", "Ahmadou", "Mulu Ken", "Heba", "Ayub", "Wendimu"]
 
     }
 
