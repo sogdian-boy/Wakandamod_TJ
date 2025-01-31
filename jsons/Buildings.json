@@ -4,26 +4,19 @@
 
         "name": "Panther God Shrine",
 
-        "replaces": "Shrine",
+        "replaces": "Bank",
 
 		"uniqueTo": "Wakanda",
 
-		"faith": 1,
-
 		"science": 1,
 
-		"cost": 40,
+		"cost": 0,
 
-		"maintenance": 1,
+		"requiredTech": "Banking",
 
-		"requiredTech": "Pottery",
-
-		"uniques": ["Only available <when religion is enabled>",
-
-            "[+1 Science, +1 Faith] [in this city] <with [Vibranium]>"]
+		"uniques":["[+1 Science, +20 Gold] [in this city]"]
 
     },
-
     {
 
         "name": "Energy Barrier",
