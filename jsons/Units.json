@@ -101,7 +101,7 @@
 		"name": "Black Panther",
 		"unitType": "Sword",
 		"uniqueTo": "Wakanda",
-		"movement": 100,
+		"movement": 20,
 		"strength": 77,
 		"cost": 0,
 		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles",
