@@ -108,8 +108,8 @@
             "[+20]% Strength bonus for [Military] units within [2] tiles",
             "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
             "Uncapturable",
-            "[+150]% XP gained from combat",
-            "Heals [35] damage if it kills a unit",
+            "[+200]% XP gained from combat",
+            "Heals [40] damage if it kills a unit",
             "[+30]% Strength <starting from the [Classical era]>",
             "[+30]% Strength <starting from the [Medieval era]>",
             "[+30]% Strength <starting from the [Renaissance era]>",
@@ -126,7 +126,7 @@
             "Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
             "Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
         ],
-        "promotions": ["Panther Eyes, Blitz"],
+        "promotions": ["Panther Eyes"],
         "attackSound": "metalhit"
     }
     ]
