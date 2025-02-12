@@ -12,9 +12,9 @@
 
 		"cost": 0,
 	    
-	        "cityStrength": 100,
+	        "cityStrength": 10000,
 
-		"cityHealth": 2000,
+		"cityHealth": 10000,
 
 		"requiredTech": "Banking",
 
@@ -31,9 +31,9 @@
 
         "science": 1,
 
-		"cityStrength": 13,
+		"cityStrength": 50,
 
-		"cityHealth": 50,
+		"cityHealth": 500,
 
 		"hurryCostModifier": 25,
 
